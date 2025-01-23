@@ -392,7 +392,6 @@ a{
     }
     .navbar-light .navbar-toggler{
         margin-left: auto;
-        margin-right: 10px;
     }
     .navbar-light .navbar-toggler:focus{
         box-shadow: none;
@@ -401,7 +400,7 @@ a{
         background-color: #f1f1f1;
     }
     .banner-content{
-        padding: 50px;
+        padding: 2rem;
     }
     #carouselExampleControls .left{
         position: absolute;
@@ -421,10 +420,8 @@ a{
         outline: none;
     }
     #carouselExampleControls .left i{
-        font-size: 20px;
     }
     #carouselExampleControls .right i{
-        font-size: 20px;
     }
     #carouselExampleControls .right{
         position: absolute;
@@ -433,12 +430,48 @@ a{
         border: none;
         background-color: #fff;
     }
+    .product_name_section{
+        font-size: 0.7rem;
+    }
     
 }
 @media screen and (max-width: 768px){
     .discover-menu{
         margin-top: auto;
     }
+    .navbar {
+        flex-wrap: wrap;
+      }
+    
+      /* Center the logo */
+      .navbar-brand {
+        flex: 1;
+        text-align: center;
+        margin-bottom: 10px; /* Add spacing below the logo */
+      }
+    
+      /* Navbar toggler (hamburger menu) on the left */
+      .navbar-toggler {
+        order: 1;
+      }
+    
+      /* Navbar links in the middle */
+      .navbar-collapse {
+        order: 2;
+        text-align: center;
+      }
+    
+      /* Login button at the bottom */
+      .login {
+        order: 3;
+        margin: 10px auto; /* Center and add spacing */
+        display: block;
+        text-align: center;
+        width: fit-content; /* Ensure the button adjusts to its content */
+      }
+      .product_name_section{
+          margin-top: 1.5rem;
+      }
 }
 @media screen and (max-width: 576px){
     #carouselExampleControls .left{
@@ -477,4 +510,5 @@ a{
     .product_name_section{
         margin-top: 1.5rem;
     }
+
 }
