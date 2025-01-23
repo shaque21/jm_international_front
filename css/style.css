@@ -420,8 +420,10 @@ a{
         outline: none;
     }
     #carouselExampleControls .left i{
+        font-size: 20px;
     }
     #carouselExampleControls .right i{
+        font-size: 20px;
     }
     #carouselExampleControls .right{
         position: absolute;
@@ -439,36 +441,36 @@ a{
     .discover-menu{
         margin-top: auto;
     }
-    .navbar {
+    /* .navbar {
         flex-wrap: wrap;
       }
     
       /* Center the logo */
-      .navbar-brand {
+      /* .navbar-brand {
         flex: 1;
         text-align: center;
-        margin-bottom: 10px; /* Add spacing below the logo */
-      }
+        margin-bottom: 10px; 
+      } */
     
       /* Navbar toggler (hamburger menu) on the left */
-      .navbar-toggler {
+      /* .navbar-toggler {
         order: 1;
-      }
+      } */
     
       /* Navbar links in the middle */
-      .navbar-collapse {
+      /* .navbar-collapse {
         order: 2;
         text-align: center;
-      }
+      } */
     
       /* Login button at the bottom */
-      .login {
+      /* .login {
         order: 3;
-        margin: 10px auto; /* Center and add spacing */
+        margin: 10px auto; 
         display: block;
         text-align: center;
-        width: fit-content; /* Ensure the button adjusts to its content */
-      }
+        width: fit-content; 
+      }  */
       .product_name_section{
           margin-top: 1.5rem;
       }
